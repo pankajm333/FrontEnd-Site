@@ -1,0 +1,68 @@
+@media screen and (max-width:1200px) {
+    .navigation {
+        flex-direction: column;
+        margin-bottom: 23px;
+    }
+
+    .nav-left {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .content-right {
+        display: none;
+    }
+
+    .home-article {
+        flex-direction: column;
+    }
+
+    .home-article-img {
+        text-align: center;
+    }
+
+    .home-artical-content {
+        text-align: center;
+    }
+
+    .year-box div {
+        margin: 0px;
+    }
+
+    .home-article-img {
+        width: 70vw;
+    }
+
+    .row {
+        flex-direction: column;
+    }
+
+    .social {
+        padding: 0;
+    }
+
+    .post-img {
+        height: auto;
+    }
+
+    .adjust-year {
+        position: static;
+        height: auto;
+        padding: 2px 0px;
+        display: flex;
+        justify-content: flex-end;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .year-box {
+
+        display: flex;
+    }
+
+    .year-box div {
+        padding: 0 3px;
+    }
+}
